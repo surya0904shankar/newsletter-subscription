@@ -1,0 +1,79 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 28px;
+}
+.container{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    width: 35%;
+    height: 35%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dice-icon {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 20%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.dice-button {
+    background-color: hsl(150, 100%, 56%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+                  /* horizontally centered */
+    position: absolute;
+    top: 430px;
+                /* half of the button's height */
+    border: none;
+}
+.dice-button:hover {
+    box-shadow: 0 0 15px hsl(150, 100%, 56%);
+}
+.divider-img {
+    width: 90%;
+    height: auto;
+}
+.advice{
+    color: hsl(150, 100%, 66%);
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin: 0;
+    font-weight: 800;
+}
+.attribution {
+    font-weight: 800;
+    text-align: end;
+    margin-top: 20px;
+    padding-top: 100px;
+    display: block;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.advice-text{
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 800;
+}
